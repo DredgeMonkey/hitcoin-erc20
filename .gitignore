@@ -1,0 +1,21 @@
+# Never track local credentials or wallet material
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.keystore
+*.seed
+*.mnemonic
+wallet-backups/
+secrets/
+
+# Local tool output
+__pycache__/
+.pytest_cache/
+node_modules/
+coverage/
+build/
+.cache/
+*.log
+.DS_Store
